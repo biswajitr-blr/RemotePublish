@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RemotePublish" default="all" basedir=".">
+	<property name="dir.src" location="./src"/>
+	
+	<target name="all">
+		<tar destfile="${basedir}/content.tar" basedir="${dir.src}/content"/>
+	</target>
+</project>
