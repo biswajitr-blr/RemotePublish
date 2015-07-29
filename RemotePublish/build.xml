@@ -3,6 +3,6 @@
 	<property name="dir.src" location="./src"/>
 	
 	<target name="all">
-		<tar destfile="${basedir}/content.tar" basedir="${dir.src}/content"/>
+		<tar destfile="./dist/content.tar" basedir="${dir.src}/content"/>
 	</target>
 </project>
